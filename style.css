@@ -1,5 +1,8 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: darkgray;
     color: floralwhite;
+    background-image: url("./IMG_6052.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
