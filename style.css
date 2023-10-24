@@ -1,7 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     color: floralwhite;
-    
 }
 
 body {
@@ -9,14 +8,19 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin-top: 4em;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 4em;
 }
 
 p {
-    font-size: 24px;
+    font-size: 2em;
+}
+
+p1 {
+    font-size: 2em;
 }
 
 ul {
@@ -27,6 +31,11 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    outline-style: solid;
+    outline-width: 0.5px;
+
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
 }
 
 li {
@@ -37,8 +46,10 @@ li a {
 display: block;
 color: white;
 text-align: center;
-padding: 14px 16px;
+padding: 0.875em 1em;
 text-decoration: none;
+outline-style: solid;
+outline-width: 0.5px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -49,3 +60,17 @@ background-color: #111;
 .active {
     background-color: #04AA6D;
   }
+
+.column {
+    width: 45%;
+}
+
+#photoLegend {
+    width: 100%;
+    height: 100%;
+}
+
+#navbar {
+    font-size: 1em;
+    font-weight: bold;
+}
