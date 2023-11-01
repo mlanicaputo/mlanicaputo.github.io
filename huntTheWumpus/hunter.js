@@ -1,4 +1,4 @@
-class Hunter {
+class Hunter extends Cell{
     constructor(x, y){
         this.x = x;
         this.y = y;
