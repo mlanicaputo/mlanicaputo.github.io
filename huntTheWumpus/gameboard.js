@@ -7,13 +7,15 @@ class Gameboard extends Graph {
 
         this.nodes = []
 
-        // populate the graph with invisible nodes
-        for (let i = 0; i < this.height; i++){
+        // for each row
+        for (let row = 0; i < this.height; row++){
 
             let currentRow = []
-
-            for (let j = 0; j < this.width; j++){
-                currentRow.push(new Cell(i, j));
+            
+            // for each column
+            for (let column = 0; column < this.width; column++){
+                // add an invisible, unvisited cell to the gameboard
+                currentRow.push(new Cell(row, column));
             }
 
             this.nodes.push(currentRow);
@@ -23,3 +25,4 @@ class Gameboard extends Graph {
         this.nodes[hX][hY].visible = true;
     }
 }
+
