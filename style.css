@@ -11,6 +11,14 @@ body {
     margin-top: 4em;
 }
 
+body.carpentry {
+    background-image: url("./beach_boards.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 4em;
+}
+
 h1 {
     font-size: 4em;
 }
@@ -33,33 +41,34 @@ ul {
     width: 100%;
     outline-style: solid;
     outline-width: 0.5px;
-
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: brightness(67%);
+    backdrop-filter: brightness(67%);
 }
 
 li {
-float: left;
+    float: left;
 }
 
 li a {
-display: block;
-color: white;
-text-align: center;
-padding: 0.875em 1em;
-text-decoration: none;
-outline-style: solid;
-outline-width: 0.5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    outline-style: solid;
+    outline-width: 0.5px;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-background-color: #111;
+    background-color: #111;
 }
 
 .active {
     background-color: #04AA6D;
-  }
+}
 
 .column {
     width: 45%;
@@ -73,4 +82,11 @@ background-color: #111;
 #navbar {
     font-size: 1em;
     font-weight: bold;
+}
+
+#aboutText {
+    width: 60%;
+    margin: auto;
+    -webkit-backdrop-filter: blur(15em);
+    backdrop-filter: blur(15em);
 }
