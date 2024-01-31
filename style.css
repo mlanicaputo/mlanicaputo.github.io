@@ -80,8 +80,15 @@ li a:hover {
 }
 
 #navbar {
-    font-size: 1em;
+    font-size: 1.05em;
     font-weight: bold;
+}
+
+#homeText {
+    width: 50%;
+    /* margin: auto; */
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
 }
 
 #aboutText {
