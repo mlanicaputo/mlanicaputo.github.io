@@ -19,6 +19,10 @@ p {
     font-size: 2em;
 }
 
+p.home {
+    font-weight: 500;
+}
+
 p1 {
     font-size: 2em;
 }
@@ -81,6 +85,7 @@ li a:hover {
     /* margin: auto; */
     -webkit-backdrop-filter: blur(2em);
     backdrop-filter: blur(2em);
+    font-weight: 500;
 }
 
 #aboutText {
@@ -100,6 +105,4 @@ li a:hover {
 img.carpentry {
     width: 100%;
     height: 100%;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
