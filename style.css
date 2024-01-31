@@ -11,14 +11,6 @@ body {
     margin-top: 4em;
 }
 
-body.carpentry {
-    background-image: url("./beach_boards.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin-top: 4em;
-}
-
 h1 {
     font-size: 4em;
 }
@@ -96,4 +88,18 @@ li a:hover {
     margin: auto;
     -webkit-backdrop-filter: blur(15em);
     backdrop-filter: blur(15em);
+}
+
+#carpentryProject {
+    width: 60%;
+    margin: auto;
+    -webkit-backdrop-filter: blur(15em);
+    backdrop-filter: blur(15em);
+}
+
+img.carpentry {
+    width: 100%;
+    height: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
