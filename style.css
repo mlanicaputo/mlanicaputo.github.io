@@ -23,6 +23,11 @@ p.home {
     font-weight: 500;
 }
 
+p.carpentry {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 p1 {
     font-size: 2em;
 }
@@ -55,6 +60,10 @@ li a {
     text-decoration: none;
     outline-style: solid;
     outline-width: 0.5px;
+}
+
+li.code {
+    float: right;
 }
 
 /* Change the link color to #111 (black) on hover */
