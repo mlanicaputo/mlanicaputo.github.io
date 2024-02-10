@@ -42,10 +42,12 @@ ul.bar {
     width: 100%;
     outline-style: solid;
     outline-width: 0.5px;
-    -webkit-backdrop-filter: blur(40px);
-    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(15em);
+    backdrop-filter: blur(15em);
     -webkit-backdrop-filter: brightness(67%);
     backdrop-filter: brightness(67%);
+
+    z-index: 100;
 }
 
 li.bar {
@@ -60,6 +62,9 @@ li a {
     text-decoration: none;
     outline-style: solid;
     outline-width: 0.5px;
+
+    -webkit-backdrop-filter: blur(15em);
+    backdrop-filter: blur(15em);
 }
 
 li.code {
