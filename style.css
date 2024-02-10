@@ -32,7 +32,7 @@ p1 {
     font-size: 2em;
 }
 
-ul {
+ul.bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,7 +48,7 @@ ul {
     backdrop-filter: brightness(67%);
 }
 
-li {
+li.bar {
     float: left;
 }
 
